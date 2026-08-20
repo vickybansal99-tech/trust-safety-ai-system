@@ -78,3 +78,12 @@ flowchart TD
 
     K --> L[Feedback Loop]
     L --> B
+
+---
+
+## 🔗 Related Systems
+
+This system is part of a broader AI-driven business architecture.
+
+👉 See full end-to-end system:  
+https://github.com/vickybansal99-tech/ai-revenue-case-study
