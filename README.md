@@ -1,30 +1,32 @@
-# Trust & Safety AI System
+# 🛡️ Trust & Safety AI System
 
-**A production-grade AI system handling ~70% of moderation autonomously**
+**AI-driven moderation system handling ~70% of volume autonomously while reducing spam by 90%**
 
 ---
 
-## ⚠️ Note
+## ⚠️ Context
 
-This represents a system designed and deployed in an enterprise environment.  
+This represents a production system designed and deployed in an enterprise environment.  
 Implementation details are abstracted due to confidentiality.
 
 ---
 
 ## ⚡ Impact
 
-- 70% of review volume resolved without human intervention  
+- ~70% of moderation handled autonomously via AI  
 - 90% spam reduction (USD 3M+ annual savings)  
-- Scaled from 2K → 100K+ reviews/month  
+- Scaled operations from 2K → 100K+ reviews/month  
 - Eliminated 2–2.5 hrs/day manual triage  
+- Enabled non-linear scaling without proportional headcount growth  
 
 ---
 
 ## 🧭 Problem
 
-Traditional moderation systems:
+Traditional Trust & Safety systems:
 - Scale linearly with people  
-- Struggle with fraud detection  
+- Struggle with coordinated fraud  
+- Depend heavily on manual review  
 - Create operational bottlenecks  
 
 ---
@@ -32,10 +34,13 @@ Traditional moderation systems:
 ## 🧠 Solution
 
 Designed a **multi-agent AI system** combining:
-- Fraud detection  
-- AI content detection  
+
+- Fraud detection (pattern + behavioral signals)  
+- AI-generated content detection  
 - Identity verification  
-- Intelligent routing  
+- Intelligent routing & decisioning  
+
+👉 Goal: **Automate decisions, not just tasks**
 
 ---
 
@@ -44,15 +49,21 @@ Designed a **multi-agent AI system** combining:
 ```mermaid
 flowchart TD
     A[Incoming Review] --> B[Screening Layer]
+
     B --> C[Fraud Detection]
     C --> D[AI Content Detection]
-    D --> E{Decision Engine}
+    D --> E[Identity Verification]
 
-    E -->|Fraud| F[Reject]
-    E -->|Clean| G[Auto Publish]
-    E -->|Uncertain| H[Human Review]
+    E --> F{Decision Engine}
 
-    H --> I[Investigation Agent]
-    I --> H
+    F -->|Fraud| G[Reject]
+    F -->|Clean| H[Auto Publish]
+    F -->|Uncertain| I[Human Review]
 
-    F & G & H --> J[Audit Layer]
+    I --> J[Investigation Agent]
+    J --> I
+
+    G & H & I --> K[Audit Layer]
+
+    K --> L[Feedback Loop]
+    L --> B
