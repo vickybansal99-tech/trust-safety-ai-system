@@ -1,6 +1,6 @@
 # 🛡️ Trust & Safety AI System
 
-**AI-driven moderation system handling ~70% of volume autonomously while reducing spam by 90%**
+**Production-grade AI system that transformed Trust & Safety from a manual function into a scalable, autonomous decision engine — enabling ~70% automation and 90% fraud reduction.**
 
 ---
 
@@ -18,6 +18,17 @@ Implementation details are abstracted due to confidentiality.
 - Scaled operations from 2K → 100K+ reviews/month  
 - Eliminated 2–2.5 hrs/day manual triage  
 - Enabled non-linear scaling without proportional headcount growth  
+
+---
+
+## 🚀 Why This Matters
+
+Most Trust & Safety systems scale linearly with headcount.
+
+This system breaks that model by:
+- Enabling non-linear scaling through AI  
+- Shifting humans to high-value decision-making  
+- Creating a foundation for revenue quality and platform trust  
 
 ---
 
