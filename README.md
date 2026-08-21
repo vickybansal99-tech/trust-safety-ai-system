@@ -29,6 +29,10 @@ I architected and led the build of a **9-agent AI system** combining rule-based 
 
 ---
 
+## Visual overview
+
+![Trust & Safety architecture overview](architecture.svg)
+
 ## 🏗️ System Architecture
 
 ```mermaid
