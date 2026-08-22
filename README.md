@@ -33,6 +33,12 @@ I architected and led the build of a **9-agent AI system** combining rule-based 
 
 ![Trust & Safety architecture overview](architecture.svg)
 
+## Illustrative dashboard concept
+
+![Illustrative Trust & Safety queue dashboard — conceptual mockup, not the production interface](dashboard-concept.png)
+
+*Conceptual mockup illustrating how the system's decisions surface to a moderator — not a capture of the actual production interface.*
+
 ## 🏗️ System Architecture
 
 ```mermaid
