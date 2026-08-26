@@ -68,6 +68,10 @@ Three smaller agents keep the system honest: an Audit Agent that automates most 
 
 I owned the decision logic and the layered architecture, set the success metrics, and led the build with Engineering — working across Legal, Ombudsman, and Product to get these standards embedded into platform design across four global brands.
 
+## Reference code
+
+**[See a real, runnable implementation →](code/)** — an original reimplementation of the Screening and Allocation decision logic, running on synthetic data. Not the production system, but genuine working code you can run yourself.
+
 ## What's not here
 
 This is architecture documentation, not a code repository. The actual implementation belongs to my former employer and isn't mine to publish. What's here reflects the real system design, the real decision logic, and the real numbers — but there's no source code in this repo, and there isn't going to be.
