@@ -6,6 +6,8 @@ Screening → Allocation decision logic — reference code, not a copy of
 any production system. See README.md for the disclosure on scope.
 """
 
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 from enum import Enum
 

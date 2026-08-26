@@ -3,6 +3,8 @@ Synthetic sample data — entirely made up for this demo. No real reviewer
 data, no real moderator names, no real production signal values.
 """
 
+from __future__ import annotations
+
 from models import Review, Moderator
 
 

@@ -18,6 +18,8 @@ reimplemented from scratch with original thresholds and weights):
   depending on which specific signals produced that score.
 """
 
+from __future__ import annotations
+
 from models import Review, ScreeningResult, Decision
 
 

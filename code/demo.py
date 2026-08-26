@@ -6,6 +6,8 @@ Run it:
     python demo.py
 """
 
+from __future__ import annotations
+
 from screening_agent import screen
 from allocation_agent import allocate
 from sample_data import sample_reviews, sample_moderators

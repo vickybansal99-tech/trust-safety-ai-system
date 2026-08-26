@@ -11,6 +11,8 @@ and assigning cases based on memory of who's good at what and who has
 room on their plate.
 """
 
+from __future__ import annotations
+
 from models import Review, ScreeningResult, Moderator, AllocationResult
 
 
